@@ -40,8 +40,19 @@ void append(Node **head, int key)
     cur->next = new_node;
 }
 
-void reverseList(Node **head)
+Node *reverseList(Node *head)
 {
+    Node *prev = NULL, *cur = head;
+    Node *next;
+
+    while (cur != NULL)
+    {
+        next = cur->next;
+        cur->next = prev;
+        prev = cur;
+        cur = next;
+    }
+    return prev;
 }
 
 int main()
@@ -54,7 +65,10 @@ int main()
     append(&head, 40);
 
     printList(head);
-    cout << endl;
-    reverseList(&head);
+    cout << '\n'
+         << "Reversed"
+         << " ";
+    head = reverseList(head);
+    printList(head);
     return 0;
 }
