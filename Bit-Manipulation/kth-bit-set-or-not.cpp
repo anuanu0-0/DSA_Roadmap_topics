@@ -20,3 +20,5 @@ int main()
         cout << "No";
     return 0;
 }
+
+//ALT: if((n>>(k-1)) & 1 == 1 )  ==> "YES"
