@@ -67,6 +67,8 @@ void bs_stl(vector<int> v, int target)
 {
     binary_search(v.begin(), v.end(), target) ? cout << "Found" : cout << "Not Found";
 }
+
+//Driver
 int main()
 {
     FAST
