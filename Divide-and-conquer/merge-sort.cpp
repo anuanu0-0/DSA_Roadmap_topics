@@ -45,7 +45,7 @@ void merge(int arr[], int l, int m, int h)
 
 void mergeSort(int arr[], int l, int h)
 {
-
+    //If there exists at least one element
     if (l < h)
     {
         int m = l + (h - l) / 2;
@@ -57,21 +57,22 @@ void mergeSort(int arr[], int l, int h)
     }
 }
 
-void print(int arr[], int n)
+//Print sorted array
+void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
 }
-
+//Driver function
 int main()
 {
     FAST int arr[] = {3, 4, 2, 9, 1, 6, 8};
     int size = sizeof(arr) / sizeof(arr[0]);
 
     mergeSort(arr, 0, size - 1);
-    print(arr, size);
+    printArray(arr, size);
 
     return 0;
 }
