@@ -1,3 +1,5 @@
+//ALT: LookUp table
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,11 +10,18 @@ using namespace std;
 
 int main()
 {
-    int t = 1;
+    FAST int t;
     cin >> t;
     while (t--)
     {
+        int n, res = 0;
+        cin >> n;
+        while (n > 0)
+        {
+            n = n & (n - 1);
+            res++;
+        }
+        cout << res << '\n';
     }
-
     return 0;
 }

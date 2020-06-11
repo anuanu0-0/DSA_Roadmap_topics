@@ -12,6 +12,9 @@ int main()
     cin >> t;
     while (t--)
     {
+        int s;
+        cin >> s;
+        (s & 1) != 0 ? cout << "Player A" << '\n' : cout << "Player B";
     }
 
     return 0;
