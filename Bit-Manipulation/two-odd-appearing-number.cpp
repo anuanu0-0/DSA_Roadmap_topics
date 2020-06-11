@@ -6,7 +6,7 @@ using namespace std;
     cout.tie();
 
 int main()
-{
+{   FAST
     int arr[] = {1, 2, 3, 2, 1, 6, 7, 7, 6, 1};
     int size = sizeof(arr) / sizeof(arr[0]);
 
