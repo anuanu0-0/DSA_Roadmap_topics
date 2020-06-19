@@ -13,6 +13,8 @@
 //    We continue this process until our pointer reaches last element.
 //    So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.
 
+//  TIME COMPLEXITY: O(nloglogn)
+//  SPACE COMPLEXITY: O(n)
 
 //  Sieve of Eratosthenes
 #include <bits/stdc++.h>
