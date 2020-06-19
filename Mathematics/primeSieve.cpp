@@ -8,36 +8,44 @@
 #define ll long long
 using namespace std;
 
-void primeSieve(int n)
+int primeSieve(int n)
 {
-
-    vector<bool> prime(n + 1);
-
-    //special case
-    prime[2] = true;
-    prime[1] = prime[0] = false;
-
-    //As any even number cannot be prime except 2 therefore mark only odd numbers
-    for (ll i = 3; i <= n; i += 2)
+    bool isPrime[n + 1];
+    for (int i = 0; i <= n; i++)
     {
-        prime[i] = true;
+        isPrime[i] = true;
     }
-    for (ll i = 2; i * i <= n; i++)
+    isPrime[0] = false;
+    isPrime[1] = false;
+    for (int i = 2; i * i <= n; i++)
     {
-        if (prime[i] == true)
-            for (ll j = i * i; j <= n; j += i)
-                prime[j] = false;
+        if (isPrime[i] == true)
+        {
+            for (int j = i * i; j <= n; j += i)
+            {
+
+                isPrime[j] = false;
+            }
+        }
     }
 
-    for (ll i = 2; i <= n; i++)
-        if (prime[i])
-            cout << i << " ";
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (isPrime[i] == true)
+        {
+            count++;
+        }
+    }
+
+    return count;
 }
 
 int main()
 {
-    FAST ll n;
+    FAST int n;
     cin >> n;
-    primeSieve(n);
+    int primes = primeSieve(n);
+    cout << primes << '\n';
     return 0;
 }
