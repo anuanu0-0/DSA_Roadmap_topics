@@ -45,3 +45,15 @@ int main()
     reverseArray(v2);
     return 0;
 }
+
+//  ALT:
+
+// int low = 0, high = v.size() - 1;
+// while (low < high)
+// {
+//     temp = v[low];
+//     v[low] = v[high];
+//     v[high] = temp;
+//      low++;
+//      high--;
+// }
