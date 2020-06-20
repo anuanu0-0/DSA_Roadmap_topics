@@ -2,9 +2,9 @@
 //            2. Mark 0 & 1 as false.
 //            3. For every i from 2 to root(n)
 //                  3.1 Mark all multiples of i starting from i*i as false
-//            4. Return the count of total primes or the print the array with values=true. 
+//            4. Return the count of total primes or the print the array with values=true.
 
-// Example: 
+// Example:
 //    Let n = 50. So we need to print all prime numbers smaller than or equal to 50.
 //    We create a list of all numbers from 2 to 50.
 //    According to the algorithm we will mark all the numbers which are divisible by 2 and are greater than or equal to the square of it.
@@ -67,7 +67,7 @@ int main()
     return 0;
 }
 
-//Refer: 
+//Refer:
 //   https://www.geeksforgeeks.org/sieve-of-eratosthenes/
-//   For variations and problems:  
+//   For variations and problems:
 //   https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html

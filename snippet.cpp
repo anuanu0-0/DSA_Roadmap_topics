@@ -1,4 +1,5 @@
 
+
 #include <iostream>
 #include <unordered_map>
 #include <vector>
@@ -7,6 +8,7 @@
 #include <cmath>
 #include <cstring>
 #include <chrono>
+
 #include <complex>
 #define endl "\n"
 #define ll long long int
@@ -37,7 +39,7 @@ int main()
     cin >> t;
     while (t--)
     {
-        }
+    }
 
     return 0;
 }
