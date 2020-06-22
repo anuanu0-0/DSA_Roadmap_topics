@@ -1,45 +1,48 @@
+#include <bits/stdc++.h>
 
-
-#include <iostream>
-#include <unordered_map>
-#include <vector>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstring>
-#include <chrono>
-
-#include <complex>
-#define endl "\n"
+#define MOD 1000000007
+#define test  \
+    int t;    \
+    cin >> t; \
+    while (t--)
+#define init(arr, val) memset(arr, val, sizeof(arr))
+#define loop(i, a, b) for (int i = a; i < b; i++)
+#define loopr(i, a, b) for (int i = a; i >= b; i--)
+#define loops(i, a, b, step) for (int i = a; i < b; i += step)
+#define looprs(i, a, b, step) for (int i = a; i >= b; i -= step)
+#define ull unsigned long long int
 #define ll long long int
-#define vi vector<int>
-#define vll vector<ll>
-#define vvi vector<vi>
-#define pii pair<int, int>
-#define pll pair<long long, long long>
-#define mod 1000000007
-#define inf 1000000000000000001;
-#define all(c) c.begin(), c.end()
-#define mp(x, y) make_pair(x, y)
-#define mem(a, val) memset(a, val, sizeof(a))
+#define P pair
+#define PLL pair<long long, long long>
+#define PII pair<int, int>
+#define PUU pair<unsigned long long int, unsigned long long int>
+#define L list
+#define V vector
+#define D deque
+#define ST set
+#define MS multiset
+#define M map
+#define UM unordered_map
+#define mp make_pair
 #define pb push_back
-#define eb emplace_back
-#define f first
-#define s second
+#define pf push_front
+#define MM multimap
+#define F first
+#define S second
+#define IT iterator
+#define RIT reverse_iterator
 #define FAST                          \
     ios_base::sync_with_stdio(false); \
     cin.tie();                        \
     cout.tie();
-
+#define FILE_READ_IN freopen("input.txt", "r", stdin);
+#define FILE_READ_OUT freopen("output.txt", "w", stdout);
+#define all(a) a.begin(), a.end()
+#define ld long double
 using namespace std;
 
 int main()
 {
-    FAST int t;
-    cin >> t;
-    while (t--)
-    {
-    }
 
     return 0;
 }
