@@ -1,5 +1,7 @@
-// TIME COMPLEXITY: O(n)
-// AUXILARY SPACE: O(1)
+//  PROBLEM STATEMENT: Find out the maximum difference between any two elements
+//  such that larger element appears after the smaller number.
+//  TIME COMPLEXITY: O(n)
+//  AUXILARY SPACE: O(1)
 
 #include <bits/stdc++.h>
 #define MOD 1000000007
