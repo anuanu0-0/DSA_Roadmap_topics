@@ -19,6 +19,7 @@ using namespace std;
 
 int main()
 {
+    vector<int> v{2, 3, 10, 6, 4, 8, 1};
 
     return 0;
 }
