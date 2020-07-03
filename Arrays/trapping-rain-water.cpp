@@ -29,6 +29,37 @@ int trappingWater(int arr[], int n)
     return count;
 }
 
+// Efficient Solution -> TC : O(n)
+//                    -> SC : O(n)
+
+int trappingWaterFast(int arr[], int n)
+{
+    int count = 0;
+    int lmax[n], rmax[n];
+
+    //  Pre compute Left max
+    lmax[0] = arr[0];
+    for (int i = 1; i < n; i++)
+    {
+        lmax[i] = max(lmax[i - 1], arr[i]);    
+    }
+
+    //  Pre compute Right max
+    rmax[n - 1] = arr[n - 1];
+    for (int i = n - 2; i >= 0; i--)
+    {
+        rmax[i] = max(rmax[i + 1], arr[i]);
+    }
+    
+    //  Check for trapped water
+    for (int i = 1; i < n - 1; i++)
+    {
+        count = count + (min(lmax[i], rmax[i]) - arr[i]);
+    }
+
+    return count;
+}
+
 int main()
 {
 
@@ -48,7 +79,7 @@ int main()
             cin >> a[i];
         }
 
-        cout << trappingWater(a, n) << endl;
+        cout << trappingWaterFast(a, n) << endl;
     }
 
     return 0;
