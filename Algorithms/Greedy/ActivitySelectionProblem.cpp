@@ -1,9 +1,9 @@
 //  ACTIVITY SELECTION PROBLEM :
 //  PROBLEM STATEMENT
-//  You are given n activities with their start and finish times.
-//  Select the maximum number of activities that can be performed by a single person,
-//  assuming that a person can only work on a single activity at a time.
+//  You are given n activities with their start and finish times. Select the maximum number of activities
+//  that can be performed by a single person, assuming that a person can only work on a single activity at a time.
 
+//Time Complexity: O(nlogn), if array is not sorted else if sorted then O(n).
 #include <bits/stdc++.h>
 #define endl '\n'
 using namespace std;
