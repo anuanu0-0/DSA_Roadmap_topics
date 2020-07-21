@@ -61,7 +61,8 @@
 
 ***
 
-<pre> Fork the repo and prepare with the free resourses available </pre> 
+<pre> Fork the repo and prepare with the free resourses available.
+ All contributions are welcome.</pre> 
 
 
   
