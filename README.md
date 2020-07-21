@@ -3,7 +3,7 @@
 ## 6 months - 1 year Competitive Programming Course | Self Taught Programmer
 
 * [ ] C++ STL
-  * [ ] Pairs
+  * [x] Pairs
   * [ ] Vectors
   * [ ] Forward_list and list
   * [ ] Dequeue
