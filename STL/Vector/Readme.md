@@ -1,3 +1,3 @@
-# Vector Resourses
+# Vector Resources
 
 Coming up...
