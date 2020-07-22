@@ -8,23 +8,4 @@
 * [X] [Prime at prime index](https://practice.geeksforgeeks.org/problems/prime-at-prime-index/1) | Sieve of Eratosthenes 
  * [My Solution](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/STL/Vector/PrimeAtPrimeIndex.cpp)
 * [ ] [Minimum Vertical Sum](https://practice.geeksforgeeks.org/problems/minimum-vertical-sum/1) | Jagged Array
-<div class="Box">
-  <div class="Box-header">
-    <h3 class="Box-title">
-      Box title
-      <span class="Counter Counter--gray">3</span>
-      <span title="Label: green label" class="Label Label--green">Google</span> 
-    </h3>
-  </div>
-  <ul>
-    <li class="Box-row">
-      Box row one
-    </li>
-    <li class="Box-row">
-      Box row two
-    </li>
-    <li class="Box-row">
-      Box row three
-    </li>
-  </ul>
-</div>
+<span class="IssueLabel bg-blue text-white mr-1" title="Label: Primer">Primer</span>
