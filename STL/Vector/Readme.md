@@ -2,4 +2,4 @@
 
 * [X] [Find the frequency](https://practice.geeksforgeeks.org/problems/find-the-frequency/1) 
   * [Solution](https://www.youtube.com/watch?v=G2qGmOyDzCY)
-  * [My solution]
+  * [My solution](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/STL/Vector/FindTheFrequency.cpp)
