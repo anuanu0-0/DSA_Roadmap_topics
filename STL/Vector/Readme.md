@@ -8,3 +8,4 @@
 * [X] [Prime at prime index](https://practice.geeksforgeeks.org/problems/prime-at-prime-index/1) | Sieve of Eratosthenes 
  * [My Solution](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/STL/Vector/PrimeAtPrimeIndex.cpp)
 * [ ] [Minimum Vertical Sum](https://practice.geeksforgeeks.org/problems/minimum-vertical-sum/1) | Jagged Array
+<span title="Label: green outline label" class="Label Label--outline Label--outline-green">green outlined label</span>
