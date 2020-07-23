@@ -4,7 +4,7 @@
 
 * [ ] C++ STL
   * [x] Pairs
-  * [ ] Vectors
+  * [ ] [Vectors](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/STL/Vector/Readme.md)
   * [ ] Forward_list and list
   * [ ] Dequeue
   * [ ] Stack
@@ -17,7 +17,7 @@
   * [ ] Non Mutating STL Algorithms
   * [ ] Mutating STL Algorithms
   * [ ] Miscellaneous
-* [ ] Arrays | Strings - Basic
+* [ ] [Arrays](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/Data-Structures/Arrays/Readme.md) | Strings - Basic 
 * [ ] Mathematics
 * [ ] Number Theory
 * [ ] Recusrion 
