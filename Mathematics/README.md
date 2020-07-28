@@ -37,3 +37,9 @@
   * [ ] Arbitrary-Precision Arithmetic
   * [ ] Fast Fourier transform
   * [ ] Operations on polynomials and series
+
+
+![label: status][~status]
+
+
+[~status]: https://img.shields.io/badge/Status-Active-green
