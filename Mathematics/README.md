@@ -8,7 +8,7 @@
   * [ ] Linear Diophantine Equations
   * [ ] Fibonacci Numbers
 #### Prime numbers
-  * [ ] Sieve of Eratosthenes
+  * [ ] Sieve of Eratosthenes       ![label: status][~status]
     * [Algorithm and Implementation](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/Mathematics/primeSieve.cpp)
         * [Theory and Problems](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
         Problem-Solutions:
@@ -39,7 +39,7 @@
   * [ ] Operations on polynomials and series
 
 
-![label: status][~status]
+
 
 
 [~status]: https://img.shields.io/badge/Status-Active-green
