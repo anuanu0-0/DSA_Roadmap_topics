@@ -18,8 +18,8 @@
   * [ ] Mutating STL Algorithms
   * [ ] Miscellaneous
 * [ ] [Arrays](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/Data-Structures/Arrays/Readme.md) | Strings - Basic 
-* [ ] Mathematics
-* [ ] Number Theory
+* [ ] [Mathematics](https://github.com/anuanu0-0/data-structures-and-algorithms/tree/master/Mathematics)
+* [ ] [Number Theory](https://github.com/anuanu0-0/data-structures-and-algorithms/tree/master/Mathematics)
 * [ ] Recusrion 
 * [ ] Backtracking
 * [ ] Binary Search
