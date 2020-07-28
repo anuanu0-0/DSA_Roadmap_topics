@@ -7,8 +7,8 @@
   * [ ] Extended Euclidean Algorithm
   * [ ] Linear Diophantine Equations
   * [ ] Fibonacci Numbers
-#### Prime numbers
-  * [ ] Sieve of Eratosthenes       ![label: status][~status]
+#### Prime numbers  ![label: status][~status]
+  * [ ] Sieve of Eratosthenes      
     * [Algorithm and Implementation](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/Mathematics/primeSieve.cpp)
         * [Theory and Problems](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
         Problem-Solutions:
