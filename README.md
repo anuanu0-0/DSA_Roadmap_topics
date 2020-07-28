@@ -49,18 +49,6 @@
   
 ***
 
-## Resources (Theory and Problems)
-### Mathematics
-
-* Number Theory
-     * Sieve of eratosthenes
-        * [Algorithm and Implementation](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/Mathematics/primeSieve.cpp)
-        * [Theory and Problems](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
-        * [Solutions](https://github.com/anuanu0-0/data-structures-and-algorithms/tree/master/Mathematics)
-
-
-***
-
 <pre> Fork the repo and prepare with the free resourses available.
  All contributions are welcome.</pre> 
 
