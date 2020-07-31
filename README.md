@@ -22,7 +22,7 @@
 * [ ] [Number Theory](https://github.com/anuanu0-0/data-structures-and-algorithms/tree/master/Mathematics)
 * [ ] Recusrion 
 * [ ] Backtracking
-* [ ] Binary Search
+* [ ] [Binary Search](https://github.com/anuanu0-0/data-structures-and-algorithms/blob/master/Algorithms/Binary-Search/Readme.md)
 * [ ] Sorting & Searching  
 * [ ] Bit Manipulation
 * [ ] Linked Lists
