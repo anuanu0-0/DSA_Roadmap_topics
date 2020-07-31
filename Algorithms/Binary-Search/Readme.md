@@ -1,10 +1,10 @@
 ## Resources
-1. Binary Search :
-[Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/), 
-[Problems](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) , 
-[Detailed Analysis](https://www.cs.cmu.edu/~fp/courses/15122-f10/lectures/03-binsearch.pdf)
-[Tutorial & Implementation](https://www.geeksforgeeks.org/binary-search/), 
-[Problem](https://www.spoj.com/problems/AGGRCOW/)
+### Binary Search :
+* [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/), 
+* [Problems](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) , 
+* [Detailed Analysis](https://www.cs.cmu.edu/~fp/courses/15122-f10/lectures/03-binsearch.pdf)
+* [Tutorial & Implementation](https://www.geeksforgeeks.org/binary-search/), 
+* [Test](https://www.spoj.com/problems/AGGRCOW/)
 
 #### Codechef : Easy - Medium
 * codechef.com - [STRSUB](https://www.codechef.com/problems/STRSUB), [editorial](https://discuss.codechef.com/questions/66064/strsub-editorial)
