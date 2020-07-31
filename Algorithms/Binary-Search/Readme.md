@@ -1,8 +1,7 @@
 ## Resources
 ### Binary Search :
-* [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/), 
-* [Problems](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) , 
-* [Detailed Analysis](https://www.cs.cmu.edu/~fp/courses/15122-f10/lectures/03-binsearch.pdf)
+* [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/),  
+* [Detailed Analysis](https://www.cs.cmu.edu/~fp/courses/15122-f10/lectures/03-binsearch.pdf),
 * [Tutorial & Implementation](https://www.geeksforgeeks.org/binary-search/), 
 * [Test](https://www.spoj.com/problems/AGGRCOW/)
 
@@ -36,6 +35,9 @@
 HackerEarth problems 
 * [Page 9](https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/9/?sort_by=partially%20solved&p_level=)
 * [Page 10](https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/10/?sort_by=partially%20solved&p_level=)
+
+Topcoder 
+* [Problems](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/))
 
 #### Interview Specific
 [Problem List](https://leetcode.com/tag/binary-search/)
