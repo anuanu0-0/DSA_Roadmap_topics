@@ -53,7 +53,7 @@
 ## ROADMAP
 ##### GIVE A DEADLINE TO EVERYTHING HERE, NEITHER TOO LESS NOR TOO MUCH.
 
-##### Books: 
+### Books: 
 - CP Handbook:-> Concise & to the point theory and CODE SNIPPETS. #Primary_Book2
 - Antti Laaksonen:->  Good book, at time of understanding topics.    #Primary_Book2
 - CLRS:-> At the end of a big topic, Correctness and proofs.
