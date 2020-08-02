@@ -146,6 +146,6 @@
 ***
 <pre> Fork the repo and prepare with the free resourses available.
  All contributions are welcome.</pre> 
-Hope it helped you.
+Hope it easied your life a bit.
 
   
