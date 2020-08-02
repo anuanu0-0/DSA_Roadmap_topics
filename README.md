@@ -97,6 +97,7 @@
 - Matrix
 - Hashing
 - Strings
+- Bit Manipulation Advanced Techniques
 
 ### MODULE 4: Number Theory 2
 
