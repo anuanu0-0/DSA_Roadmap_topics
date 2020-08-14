@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 
 #define MOD 1000000007
@@ -18,16 +17,27 @@
 
 using namespace std;
 
-int tower(int n) {
-    
+int checkX(vector<int> a, int size, int x, int res = 0)
+{
+    if (size == 0 || res == size - 1)
+        return -1;
 
-    return tower(0);
+    if (a[res] == x)
+        return res;
+
+    return checkX(a, size, x, res + 1);
 }
 
 int main()
 {
-    int n;
-    cin>>n;
-    tower(n);
+    FAST
+        vector<int>
+            a = {1, 2, 3, 4, 5, 6, 7};
+    int x = 5;
+    int res = checkX(a, a.size(), x);
+    if (res == -1)
+        cout << "Not Found";
+    else
+        cout << "Found at index " << res + 1;
     return 0;
 }
