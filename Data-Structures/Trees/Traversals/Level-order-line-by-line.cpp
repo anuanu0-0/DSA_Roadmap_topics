@@ -1,3 +1,6 @@
+// Time Complexity : Theta(n)
+// Auxilary Space : O(n)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,7 +15,8 @@ struct Node
     }
 };
 
-void printLevelOrderLine(Node *root)
+//   Method 1:
+void printLevelOrderLine1(Node *root)
 {
     if (root == NULL)
         return;
@@ -44,6 +48,31 @@ void printLevelOrderLine(Node *root)
     }
 }
 
+//  Method 2:
+
+void printLevelOrderLine2(Node *root)
+{
+    if (root == NULL)
+        return;
+    queue<Node *> q;
+    q.push(root);
+    while (!q.empty())
+    {
+        int count = q.size();
+        for (int i = 0; i < count; i++)
+        {
+            Node *cur = q.front();
+            q.pop();
+            cout << cur->data << " ";
+            if (cur->left != NULL)
+                q.push(cur->left);
+            if (cur->right != NULL)
+                q.push(cur->right);
+        }
+        cout << endl;
+    }
+}
+
 int main()
 {
     Node *root = new Node(50);
@@ -53,7 +82,9 @@ int main()
     root->left->right = new Node(30);
     root->right->left = new Node(30);
     root->right->right = new Node(40);
-
-    printLevelOrderLine(root);
+    // Methdo 1
+    printLevelOrderLine1(root);
+    //Method 2
+    printLevelOrderLine2(root);
     return 0;
 }
