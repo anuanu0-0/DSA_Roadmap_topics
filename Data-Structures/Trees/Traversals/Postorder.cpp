@@ -12,12 +12,12 @@ struct Node
     }
 };
 
-void inorder(Node *root)
+void postorder(Node *root)
 {
     if (root != NULL)
     {
-        inorder(root->left);
-        inorder(root->right);
+        postorder(root->left);
+        postorder(root->right);
         cout << root->data << " ";
     }
 }
@@ -31,6 +31,6 @@ int main()
     root->left->right = new Node(30);
     root->right->left = new Node(30);
     root->right->right = new Node(40);
-    inorder(root);
+    postorder(root);
     return 0;
 }
