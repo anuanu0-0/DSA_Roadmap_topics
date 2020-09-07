@@ -1,6 +1,7 @@
-//  Level Order Traversal or Breadth First Search
-//  Time Complexity : Theta(n)
-//  Auxilary Space : O(n) or Theta(w), where w is width of binary tree
+//  Time Complexity : O(n)
+//  Auxilary Space for Recursive solution : O(h), where h is height of binary tree
+//  Auxilary Space for Iterative solution : O(w), where w is the width of the binary tree
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -15,25 +16,35 @@ struct Node
     }
 };
 
-void printLevel(Node *root)
+//  Recursive Solution
+int getSize1(Node *root)
+{
+    if (root == NULL)
+        return 0;
+    return 1 + getSize1(root->left) + getSize1(root->right);
+}
+
+//  Iterative Solution
+int getSize2(Node *root)
 {
     //  If root is null, return
     if (root == NULL)
-        return;
+        return 0;
     queue<Node *> q;
     q.push(root);
-
+    int count = 0;
     while (!q.empty())
     {
         Node *cur = q.front();
         q.pop();
-        cout << cur->data << " ";
+        count++;
         //  Push children if exists
         if (cur->left != NULL)
             q.push(cur->left);
         if (cur->right != NULL)
             q.push(cur->right);
     }
+    return count;
 }
 
 int main()
@@ -46,6 +57,10 @@ int main()
     root->right->left = new Node(30);
     root->right->right = new Node(40);
 
-    printLevel(root);
+    //  Recursive Solution
+    cout << "Size : " << getSize1(root) << '\n';
+
+    //  Iterative Solution
+    cout << "Size : " << getSize2(root) << '\n';
     return 0;
 }

@@ -49,7 +49,6 @@ void printLevelOrderLine1(Node *root)
 }
 
 //  Method 2:
-
 void printLevelOrderLine2(Node *root)
 {
     if (root == NULL)
