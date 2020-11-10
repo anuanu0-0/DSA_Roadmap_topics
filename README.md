@@ -1,6 +1,6 @@
 # Data Structures and Algorithms in C++
 
-## 6 months - 1 year Competitive Programming Course | Self Taught Programmer
+## 6 months - 1 year Competitive Programming Course | Algorithmic Programmer
 
 ### TOPICS
 * [ ] C++ STL
